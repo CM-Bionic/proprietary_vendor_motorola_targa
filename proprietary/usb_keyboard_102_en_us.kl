@@ -17,7 +17,9 @@ key 60    SOFT_RIGHT        WAKE
 # BEGIN Motorola, w36295, 06/29/11, IKSTABLEFIVE-10854, CP:Mouse Bluetooth HID keyboard END key Issue in Targa Eco System
 # key 107   ENDCALL           WAKE_DROPPED
 # END IKSTABLEFIVE-10854
-key 62    ENDCALL           WAKE_DROPPED
+# BEGIN Motorola, w36295, 07/29/11, IKPRODUCT5-1730, CLONE -Olympus: Lapdock. Pressing F4 key reboots the webtop application.
+# key 62    ENDCALL           WAKE_DROPPED
+# END IKPRODUCT5-1730
 key 229   MENU              WAKE_DROPPED
 key 125   MENU              WAKE_DROPPED
 key 139   MENU              WAKE_DROPPED

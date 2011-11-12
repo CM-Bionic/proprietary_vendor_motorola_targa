@@ -16,17 +16,15 @@
 
 # system/app
 PRODUCT_COPY_FILES += \
-    vendor/motorola/targa/proprietary/ChargeOnlyMode.apk:/system/app/ChargeOnlyMode.apk \
-    vendor/motorola/targa/proprietary/PhoneConfig.apk:/system/app/PhoneConfig.apk \
-    vendor/motorola/targa/proprietary/ProgramMenu.apk:/system/app/ProgramMenu.apk \
-    vendor/motorola/targa/proprietary/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
+vendor/motorola/targa/proprietary/ChargeOnlyMode.apk:/system/app/ChargeOnlyMode.apk \
+vendor/motorola/targa/proprietary/PhoneConfig.apk:/system/app/PhoneConfig.apk \
+vendor/motorola/targa/proprietary/ProgramMenu.apk:/system/app/ProgramMenu.apk \
+vendor/motorola/targa/proprietary/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
 
 # system/bin
 PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/fmradioserver:/system/bin/fmradioserver \
 vendor/motorola/targa/proprietary/tf_daemon:/system/bin/tf_daemon \
 vendor/motorola/targa/proprietary/Hostapd:/system/bin/Hostapd \
-vendor/motorola/targa/proprietary/IttiamAacEncoder_Test:/system/bin/IttiamAacEncoder_Test \
 vendor/motorola/targa/proprietary/akmd2:/system/bin/akmd2 \
 vendor/motorola/targa/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
 vendor/motorola/targa/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
@@ -166,28 +164,15 @@ vendor/motorola/targa/proprietary/fw_wlan1281.bin:/system/etc/wifi/fw_wlan1281.b
 vendor/motorola/targa/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan1281_AP.bin \
 vendor/motorola/targa/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
 
+# system/lib
 PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
 vendor/motorola/targa/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
-vendor/motorola/targa/proprietary/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
-vendor/motorola/targa/proprietary/libOMX.ITTIAM.WMA.decode.so:/system/lib/libOMX.ITTIAM.WMA.decode.so \
 vendor/motorola/targa/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
-vendor/motorola/targa/proprietary/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
 vendor/motorola/targa/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so \
 vendor/motorola/targa/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 vendor/motorola/targa/proprietary/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/targa/proprietary/libadkutils.so:/system/lib/libadkutils.so \
 vendor/motorola/targa/proprietary/libamcm.so:/system/lib/libamcm.so \
-vendor/motorola/targa/proprietary/libarcaudiogetinfo.so:/system/lib/libarcaudiogetinfo.so \
-vendor/motorola/targa/proprietary/libarcomx_evrcdec_sharedlibrary.so:/system/lib/libarcomx_evrcdec_sharedlibrary.so \
-vendor/motorola/targa/proprietary/libarcomx_qcelpdec_sharedlibrary.so:/system/lib/libarcomx_qcelpdec_sharedlibrary.so \
-vendor/motorola/targa/proprietary/libarcomx_qcelpenc_sharedlibrary.so:/system/lib/libarcomx_qcelpenc_sharedlibrary.so \
-vendor/motorola/targa/proprietary/libarcomx_wmadec_sharedlibrary.so:/system/lib/libarcomx_wmadec_sharedlibrary.so \
-vendor/motorola/targa/proprietary/libarcplatform.so:/system/lib/libarcplatform.so \
-vendor/motorola/targa/proprietary/libarcsoft.so:/system/lib/libarcsoft.so \
-vendor/motorola/targa/proprietary/libarcstagefright.so:/system/lib/libarcstagefright.so \
-vendor/motorola/targa/proprietary/libaudio_ext.so:/system/lib/libaudio_ext.so \
-vendor/motorola/targa/proprietary/libaudiopolicy_ext.so:/system/lib/libaudiopolicy_ext.so \
 vendor/motorola/targa/proprietary/libbattd.so:/system/lib/libbattd.so \
 vendor/motorola/targa/proprietary/libbcbmsg.so:/system/lib/libbcbmsg.so \
 vendor/motorola/targa/proprietary/libcaps.so:/system/lib/libcaps.so \
@@ -201,13 +186,10 @@ vendor/motorola/targa/proprietary/libdmjavaplugin.so:/system/lib/libdmjavaplugin
 vendor/motorola/targa/proprietary/libdrm.so:/system/lib/libdrm.so \
 vendor/motorola/targa/proprietary/libexempi.so:/system/lib/libexempi.so \
 vendor/motorola/targa/proprietary/libextdisp.so:/system/lib/libextdisp.so \
-vendor/motorola/targa/proprietary/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
-vendor/motorola/targa/proprietary/libfmradioplayer.so:/system/lib/libfmradioplayer.so \
 vendor/motorola/targa/proprietary/libgdx.so:/system/lib/libgdx.so \
 vendor/motorola/targa/proprietary/libglslcompiler.so:/system/lib/libglslcompiler.so \
 vendor/motorola/targa/proprietary/libhdcp.so:/system/lib/libhdcp.so \
 vendor/motorola/targa/proprietary/libhdmi.so:/system/lib/libhdmi.so \
-vendor/motorola/targa/proprietary/libhdr_interface.so:/system/lib/libhdr_interface.so \
 vendor/motorola/targa/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/motorola/targa/proprietary/libimage_jni.so:/system/lib/libimage_jni.so \
 vendor/motorola/targa/proprietary/libipsec.so:/system/lib/libipsec.so \
@@ -215,7 +197,6 @@ vendor/motorola/targa/proprietary/libjanus.so:/system/lib/libjanus.so \
 vendor/motorola/targa/proprietary/libjni_nwp.so:/system/lib/libjni_nwp.so \
 vendor/motorola/targa/proprietary/libjni_pinyinime.so:/system/lib/libjni_pinyinime.so \
 vendor/motorola/targa/proprietary/libkpilogger.so:/system/lib/libkpilogger.so \
-vendor/motorola/targa/proprietary/libmediaext.so:/system/lib/libmediaext.so \
 vendor/motorola/targa/proprietary/libmetainfo.so:/system/lib/libmetainfo.so \
 vendor/motorola/targa/proprietary/libmirror.so:/system/lib/libmirror.so \
 vendor/motorola/targa/proprietary/libmirrorjni.so:/system/lib/libmirrorjni.so \
@@ -272,16 +253,6 @@ vendor/motorola/targa/proprietary/libvpnclient_jni.so:/system/lib/libvpnclient_j
 vendor/motorola/targa/proprietary/libvsuite_mot_vs32_cmb103.so:/system/lib/libvsuite_mot_vs32_cmb103.so \
 vendor/motorola/targa/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
 vendor/motorola/targa/proprietary/libxmpcore.so:/system/lib/libxmpcore.so \
-vendor/motorola/targa/proprietary/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
-vendor/motorola/targa/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
-vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
-vendor/motorola/targa/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
-vendor/motorola/targa/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
-vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
-vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
-vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
-vendor/motorola/targa/proprietary/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
-vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
 
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
